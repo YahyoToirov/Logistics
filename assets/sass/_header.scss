@@ -85,4 +85,25 @@ nav {
     }
   }
 }
+nav h4 {
+  position: relative;
+  // transition: .3s;
+}
+nav h4::before {
+  content: "";
+  width: 100%;
+  height: 2.3px;
+  background-color: black;
+  position: absolute;
+  bottom: -5px;
+  transform: scaleX(0);
+  transition: 0.4s transform;
+  transform-origin: left;
+}
 
+nav h4:hover::before {
+  transform: scaleX(1);
+}
+nav h4:hover {
+  opacity: 1;
+}
