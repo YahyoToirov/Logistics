@@ -1,0 +1,71 @@
+/* From Uiverse.io by zjssun */
+.buttons {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+.buttons:hover,
+:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+.footer {
+  background-color: #0b7572;
+  padding: 5vh 0;
+  ul li {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 199%;
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+  }
+}
+.footer_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.logo_text {
+  font-family: var(--third-family);
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 0.16em;
+  text-transform: capitalize;
+}
+.number {
+  margin: 17px 0;
+}
+.footer_card {
+  i {
+    font-size: 27px;
+    margin-right: 17px;
+  }
+}
+@media (max-width: 811px) {
+  .footer_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 401px) {
+  .footer_cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+

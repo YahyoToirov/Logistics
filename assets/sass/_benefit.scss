@@ -1,0 +1,36 @@
+.benefit {
+  margin: 9vh 0;
+  width: 100%;
+  position: relative;
+  img {
+    width: 100%;
+    min-height: 301px;
+  }
+  p {
+    position: absolute;
+    bottom: 31px;
+    left: 41px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+    color: #fff;
+  }
+}
+
+@media (max-width: 777px) {
+  .benefit p {
+    font-size: 31px;
+  }
+}
+
+@media (max-width: 801px) {
+  .benefit p {
+    font-size: 31px;
+  }
+}
+@media (max-width: 544px) {
+  .benefit {
+    display: none;
+  }
+}

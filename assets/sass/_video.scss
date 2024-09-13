@@ -1,0 +1,13 @@
+.video {
+  margin-top: 9vh;
+  iframe {
+    height: 87vh;
+  }
+}
+@media (max-width: 555px) {
+  .video {
+    iframe {
+      height: 57vh;
+    }
+  }
+}

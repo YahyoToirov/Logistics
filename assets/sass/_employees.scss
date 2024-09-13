@@ -1,0 +1,70 @@
+.employees {
+  padding-top: 9vh;
+  display: grid;
+  gap: 31px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.employees_card img {
+  max-width: 139px;
+}
+.employees_card {
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  padding: 31px;
+  border-radius: 11px;
+  border-left: 43px solid #0b7572;
+
+  i {
+    font-size: 33px;
+    margin-right: 27px;
+    color: gray;
+  }
+}
+.employee_big {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.employee_small {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 11px 0;
+  opacity: 0.7;
+  line-height: 150%;
+}
+
+.iiis {
+  padding-top: 11px;
+}
+@media (max-width: 955px) {
+  .employees_card {
+    i {
+      margin-right: 11px;
+    }
+  }
+}
+
+@media (max-width: 867px) {
+  .employees {
+    grid-template-columns: 1fr;
+  }
+}
+.main_emp {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  padding-top: 5vh;
+}
+
+@media (max-width: 445px) {
+  .employees_card {
+    flex-wrap: wrap;
+  }
+  .main_emp {
+    font-size: 31px;
+  }
+}

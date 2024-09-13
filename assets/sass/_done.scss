@@ -1,0 +1,50 @@
+.done {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 3%;
+  margin: 9vh 0;
+}
+.done_card {
+  background-color: white;
+  color: black;
+  border-radius: 11px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+}
+.done_big {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.done_padd {
+  padding: 21px;
+}
+.done_small {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin: 11px 0;
+  line-height: 150%;
+}
+
+.done_link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  border-bottom: 3px solid orange;
+  width: 91px;
+  padding-bottom: 7px;
+}
+
+@media (max-width: 887px) {
+  .done {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 607px) {
+  .done {
+    grid-template-columns: 1fr;
+  }
+}

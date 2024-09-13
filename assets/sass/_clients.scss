@@ -1,0 +1,49 @@
+.clients {
+  height: 100%;
+}
+.client_big {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  text-align: center;
+}
+.client_small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.clients_card {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 201px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 511px) {
+  .swiper-slide img {
+    padding: 21px;
+  }
+}

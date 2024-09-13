@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logistics</title>
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Eo_circle_teal_white_letter-l.svg/2048px-Eo_circle_teal_white_letter-l.svg.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body id="up">
+    <!-- HEADER START  -->
+    <header>
+      <!-- NAVBAR START  -->
+      <nav class="container">
+        <img src="./images/png/removed.png" alt="logo" />
+        <div class="nav_right">
+          <input id="check" type="checkbox" />
+          <ul class="links">
+            <li><h4 href="#">Дом</h4></li>
+            <li><h4 href="#">О работе</h4></li>
+            <li><h4 href="#">Доставка</h4></li>
+            <li><h4 href="#">Контакт</h4></li>
+            <label for="check">
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+          </ul>
+          <label class="check" for="check">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <button id="dark-mode-toggle" class="dark-mode-toggle">
+            <svg
+              width="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 496 496"
+            >
+              <path
+                fill="currentColor"
+                d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z"
+                transform="translate(-8 -8)"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+      <!-- NAVBAR END  -->
+    </header>
+    <!-- HEADER START  -->
+    <!-- MAIN START  -->
+    <main>
+      <!-- SHOWCASE START  -->
+      <section class="showcase container">
+        <div class="showcase_left">
+          <p class="showcase_big">Поставщик Дальнего Востока</p>
+          <p class="showcase_small">
+            Наши клиенты получают полный спектр услуг по работе с Китаем.
+            Начиная с подбора производителя заканчивая доставкой товара до
+            двери. Настолько прозрачных сделок с Китаем вы еще не осуществляли.
+          </p>
+          <h4 class="showcase_link">Узнать больше</h4>
+        </div>
+        <div class="showcase_right">
+          <img src="./images/png/hero.png" alt="showcase photo" />
+        </div>
+      </section>
+      <a href="#up">
+        <i class="fa-regular fa-circle-up overall"></i>
+      </a>
+      <!-- negadur scroll behaviour ishlamadi? -->
+
+      <!-- SHOWCASE END  -->
+      <!-- FEATURES START -->
+      <section class="container">
+        <div class="features">
+          <div class="features_card">
+            <img src="./images/svg/features/features1.svg" alt="photo" />
+            <p class="features_big">Поиск производителей по товару</p>
+            <p class="features_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod incididunt ut.
+            </p>
+          </div>
+          <div class="features_card">
+            <img src="./images/svg/features/features2.svg" alt="photo" />
+            <p class="features_big">Поиск конкретного производителя</p>
+            <p class="features_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod incididunt ut.
+            </p>
+          </div>
+          <div class="features_card bor_ri_none">
+            <img src="./images/svg/features/features3.svg" alt="photo" />
+            <p class="features_big">Доставка образцов товаров</p>
+            <p class="features_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod incididunt ut.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- FEATURES END -->
+      <!-- BENEFIT START  -->
+      <section class="container">
+        <div class="benefit">
+          <img src="./images/png/benefit.png" alt="photo" />
+          <p>
+            Почему с нами <br />
+            выгоднее?
+          </p>
+        </div>
+      </section>
+      <!-- BENEFIT END  -->
+      <!-- BLOCKS START  -->
+      <section class="blocks container">
+        <div class="block_card">
+          <img src="./images/svg/blocks/block1.svg" alt="photo" />
+          <div>
+            <p class="block_big">Lorem ipsum dolor sit amet</p>
+            <p class="block_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod ut.
+            </p>
+          </div>
+        </div>
+        <div class="block_card">
+          <img src="./images/svg/blocks/block2.svg" alt="photo" />
+          <div>
+            <p class="block_big">Lorem ipsum dolor sit amet</p>
+            <p class="block_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod ut.
+            </p>
+          </div>
+        </div>
+        <div class="block_card">
+          <img src="./images/svg/blocks/block3.svg" alt="photo" />
+          <div>
+            <p class="block_big">Lorem ipsum dolor sit amet</p>
+            <p class="block_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod ut.
+            </p>
+          </div>
+        </div>
+        <div class="block_card">
+          <img src="./images/svg/blocks/block4.svg" alt="photo" />
+          <div>
+            <p class="block_big">Lorem ipsum dolor sit amet</p>
+            <p class="block_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod ut.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- BLOCKS END  -->
+      <!-- DONE START  -->
+      <section class="container">
+        <div class="done">
+          <div class="done_card">
+            <img src="./images/png/done1.png" alt="photo of done" />
+            <div class="done_padd">
+              <p class="done_big">Станки и оборудование</p>
+              <p class="done_small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+              <h4 class="done_link">20 000 руб.</h4>
+            </div>
+          </div>
+          <div class="done_card">
+            <img src="./images/png/done2.png" alt="photo of done" />
+            <div class="done_padd">
+              <p class="done_big">Компоненты и запчасти</p>
+              <p class="done_small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+              <h4 class="done_link">27 000 руб.</h4>
+            </div>
+          </div>
+          <div class="done_card">
+            <img src="./images/png/done3.png" alt="photo of done" />
+            <div class="done_padd">
+              <p class="done_big">Станки и оборудование</p>
+              <p class="done_small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+              <h4 class="done_link">44 000 руб.</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DONE END  -->
+      <!-- ATTRACT START  -->
+      <section class="container">
+        <div class="attract">
+          <p class="attract_big">Привлеченные клиенты</p>
+          <div class="attract_card">
+            <div class="with_logo">
+              <img
+                src="./images/svg/attract/attract_logo.svg"
+                alt="logo attract"
+              />
+              <p>
+                ООО "ПДВ" ИНН 7329023100 КПП 732901001 433405, Ульяновская обл.,
+                Территория Портовой особой Экономической зоны, Проезд Первых
+                Резидентов 3 Телефон: +7 8422 99 666 5 e-mail: info@pdv.ooo
+              </p>
+            </div>
+            <hr />
+            <table>
+              <thead>
+                <tr class="table_bg">
+                  <th>Фото</th>
+                  <th>Название</th>
+                  <th>Производитель</th>
+                  <th class="d_none">Контакт</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img
+                      class="motor"
+                      src="./images/svg/attract/attract.svg"
+                      alt="photo attract"
+                    />
+                  </td>
+                  <td>
+                    <p class="table_simple">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod ut.
+                    </p>
+                    <h4 class="table_bold">120 000 руб.</h4>
+                  </td>
+                  <td>
+                    <p class="table_bold">Завод “Hlobalkhim”</p>
+                    <p class="table_simple">
+                      г. Москва, проспект Кутузовский, д. 12 стр. 1 этаж, пом. 1
+                    </p>
+                    <img
+                      class="stars"
+                      src="./images/svg/stars.svg"
+                      alt="start"
+                    />
+                  </td>
+                  <td class="d_none">
+                    <p class="table_bold">Коваль Иван Борисович</p>
+                    <p class="table_simple">Руководитель отдела поставок</p>
+                    <p class="table_simple">+ 7 (495) 765 33 22</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <img
+                      class="motor"
+                      src="./images/svg/attract/attract.svg"
+                      alt="photo attract"
+                    />
+                  </td>
+                  <td>
+                    <p class="table_simple">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod ut.
+                    </p>
+                    <h4 class="table_bold">120 000 руб.</h4>
+                  </td>
+                  <td>
+                    <p class="table_bold">Завод “Hlobalkhim”</p>
+                    <p class="table_simple">
+                      г. Москва, проспект Кутузовский, д. 12 стр. 1 этаж, пом. 1
+                    </p>
+                    <img
+                      class="stars"
+                      src="./images/svg/stars.svg"
+                      alt="start"
+                    />
+                  </td>
+                  <td class="d_none">
+                    <p class="table_bold">Коваль Иван Борисович</p>
+                    <p class="table_simple">Руководитель отдела поставок</p>
+                    <p class="table_simple">+ 7 (495) 765 33 22</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      class="motor"
+                      src="./images/svg/attract/attract.svg"
+                      alt="photo attract"
+                    />
+                  </td>
+                  <td>
+                    <p class="table_simple">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod ut.
+                    </p>
+                    <h4 class="table_bold">120 000 руб.</h4>
+                  </td>
+                  <td>
+                    <p class="table_bold">Завод “Hlobalkhim”</p>
+                    <p class="table_simple">
+                      г. Москва, проспект Кутузовский, д. 12 стр. 1 этаж, пом. 1
+                    </p>
+                    <img
+                      class="stars"
+                      src="./images/svg/stars.svg"
+                      alt="start"
+                    />
+                  </td>
+                  <td class="d_none">
+                    <p class="table_bold">Коваль Иван Борисович</p>
+                    <p class="table_simple">Руководитель отдела поставок</p>
+                    <p class="table_simple">+ 7 (495) 765 33 22</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section class="attract2 container">
+        <p class="attract2_big">Привлеченные клиенты</p>
+        <div class="attract2_card">
+          <img
+            class="attract2_logo"
+            src="./images/svg/attract/attract_logo.svg"
+            alt="attract photo"
+          />
+          <p class="like_button">Клиент №1</p>
+          <div class="flex">
+            <img
+              class="motor2"
+              src="./images/svg/attract/attract.svg"
+              alt="photo"
+            />
+            <div>
+              <p class="table_simple2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+              <p class="table_bold2">120 000 руб.</p>
+            </div>
+          </div>
+          <hr />
+          <div>
+            <p class="table_bold2">Завод “Hlobalkhim”</p>
+            <p class="table_simple2">
+              г. Москва, проспект Кутузовский, д. 12 стр. 1 этаж, пом. 1
+            </p>
+            <img class="stars" src="./images/svg/stars.svg" alt="" />
+          </div>
+          <hr />
+          <div>
+            <p class="table_bold2">Коваль Иван Борисович</p>
+            <p class="table_simple2">Руководитель отдела поставок</p>
+            <p class="table_simple2">+ 7 (495) 765 33 22</p>
+          </div>
+        </div>
+      </section>
+      <!-- ATTRACT END   -->
+      <!-- STAGES START  -->
+      <section class="stages container">
+        <p class="stage_large">Этапы поставки</p>
+        <div class="stage_card">
+          <img src="./images/png/stages1.png" alt="photo" />
+          <div>
+            <p class="stage_big">Предложение от продавца</p>
+            <div class="borderus"></div>
+            <p class="stage_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit
+              duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus
+              turpis massa tincidunt. Venenatis urna cursus eget nunc
+              scelerisque viverra mauris in.
+            </p>
+          </div>
+        </div>
+        <div class="stage_card">
+          <img src="./images/png/stages2.png" alt="photo" />
+          <div>
+            <p class="stage_big">Предложение от продавца</p>
+            <div class="borderus"></div>
+            <p class="stage_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit
+              duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus
+              turpis massa tincidunt. Venenatis urna cursus eget nunc
+              scelerisque viverra mauris in.
+            </p>
+          </div>
+        </div>
+        <div class="stage_card">
+          <img src="./images/png/stages3.png" alt="photo" />
+          <div>
+            <p class="stage_big">Предложение от продавца</p>
+            <div class="borderus"></div>
+            <p class="stage_small">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit
+              duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus
+              turpis massa tincidunt. Venenatis urna cursus eget nunc
+              scelerisque viverra mauris in.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- STAGES END  -->
+      <!-- CLIENTS START  -->
+      <section class="clients">
+        <!-- Swiper 1 (Existing one) -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients1.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients2.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients3.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients4.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients5.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients6.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients7.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients8.svg"
+                alt="photo of clients"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper 2 (New Swiper) -->
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients1.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients2.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients3.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients4.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients5.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients6.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients7.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients8.svg"
+                alt="photo of clients"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper 1 (Existing one) -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients1.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients2.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients3.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients4.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients5.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients6.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients7.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients8.svg"
+                alt="photo of clients"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper 2 (New Swiper) -->
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients1.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients2.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients3.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients4.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients5.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients6.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients7.svg"
+                alt="photo of clients"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/svg/clients/clients8.svg"
+                alt="photo of clients"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CLIENTS END  -->
+      <!-- EMPLOYEES START  -->
+      <section class="container">
+        <p class="main_emp">Сотрудники компании</p>
+        <div class="employees">
+          <div class="employees_card">
+            <img
+              src="./images/svg/avatars/avatar1.svg"
+              alt="photo of avatar1"
+            />
+            <div>
+              <p class="employee_big">Антон Макаров</p>
+              <p class="employee_small">Руководитель компании</p>
+              <div class="borderus"></div>
+              <div class="iiis">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-vk"></i>
+              </div>
+            </div>
+          </div>
+          <div class="employees_card">
+            <img
+              src="./images/svg/avatars/avatar2.svg"
+              alt="photo of avatar1"
+            />
+            <div>
+              <p class="employee_big">Иван Аркадьев</p>
+              <p class="employee_small">Менеджер по закупкам</p>
+              <div class="borderus"></div>
+              <div class="iiis">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-vk"></i>
+              </div>
+            </div>
+          </div>
+          <div class="employees_card">
+            <img
+              src="./images/svg/avatars/avatar3.svg"
+              alt="photo of avatar1"
+            />
+            <div>
+              <p class="employee_big">Алина Кравец</p>
+              <p class="employee_small">Сотрудник отдела кадров</p>
+              <div class="borderus"></div>
+              <div class="iiis">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-vk"></i>
+              </div>
+            </div>
+          </div>
+          <div class="employees_card">
+            <img
+              src="./images/svg/avatars/avatar4.svg"
+              alt="photo of avatar1"
+            />
+            <div>
+              <p class="employee_big">Елена Валерьева</p>
+              <p class="employee_small">Главный бухгалтер</p>
+              <div class="borderus"></div>
+              <div class="iiis">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-vk"></i>
+              </div>
+            </div>
+          </div>
+          <div class="employees_card">
+            <img
+              src="./images/svg/avatars/avatar5.svg"
+              alt="photo of avatar1"
+            />
+            <div>
+              <p class="employee_big">Борис Вавилов</p>
+              <p class="employee_small">Бухгалтер</p>
+              <div class="borderus"></div>
+              <div class="iiis">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-vk"></i>
+              </div>
+            </div>
+          </div>
+          <div class="employees_card">
+            <img
+              src="./images/svg/avatars/avatar6.svg"
+              alt="photo of avatar1"
+            />
+            <div>
+              <p class="employee_big">Виктор Козуб</p>
+              <p class="employee_small">Менеджер по закупкам</p>
+              <div class="borderus"></div>
+              <div class="iiis">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-vk"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- EMPLOYEES END  -->
+      <!-- CONTACTS START  -->
+      <section class="contacts container">
+        <p class="contacts_big">Наши контакты</p>
+        <div class="contacts_cards">
+          <div class="contacts_left">
+            <div class="contacts_item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <p class="contacts_small">Телефон</p>
+                <p class="contacts_large">+7 8422 99 666 5</p>
+              </div>
+            </div>
+
+            <div class="contacts_item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <p class="contacts_small">E-mail</p>
+                <p class="contacts_large">info@pdv.ooo</p>
+              </div>
+            </div>
+            <div class="contacts_item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>
+                <p class="contacts_small">Whatsapp</p>
+                <p class="contacts_large">+86 158 666 95 616</p>
+              </div>
+            </div>
+            <div class="contacts_item">
+              <i class="fa-brands fa-skype"></i>
+              <div>
+                <p class="contacts_small">Skype</p>
+                <p class="contacts_large">sxy-bolts.cn</p>
+              </div>
+            </div>
+          </div>
+          <div class="contacts_right">
+            <table class="noneno">
+              <tr>
+                <td>Полное наименование:</td>
+                <th>ООО "Поставщик Дальнего Востока"</th>
+              </tr>
+              <tr class="same">
+                <td>ИНН:</td>
+                <th>7329023100</th>
+              </tr>
+              <tr>
+                <td>КПП:</td>
+                <th>732901001</th>
+              </tr>
+              <tr class="same">
+                <td>ОГРН:</td>
+                <th>1167325074762</th>
+              </tr>
+              <tr class="noneno">
+                <td>Адрес:</td>
+                <th>
+                  Россия, Ульяновская обл, территория Портовой Особой
+                  Экономической Зоны, проезд Первых Резидентов дом 3
+                </th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACTS END  -->
+      <!-- VIDEO START  -->
+      <section class="video container">
+        <iframe
+          width="100%"
+          src="https://www.youtube.com/embed/9K6KtC3EJ6w?si=uBGLVcacJobCc3rc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <!-- VIDEO END  -->
+    </main>
+    <!-- MAIN END  -->
+    <!-- FOOTER START  -->
+    <footer class="footer">
+      <div class="container footer_cards">
+        <div class="footer_card">
+          <p class="logo_text">LOGO</p>
+        </div>
+        <ul>
+          <li>
+            <h4>Каталог</h4>
+          </li>
+          <li>
+            <h4>о компании</h4>
+          </li>
+          <li>
+            <h4>Индивидуальная</h4>
+          </li>
+          <li>
+            <h4>Партнерам</h4>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h4>2D, 3D модели</h4>
+          </li>
+          <li>
+            <h4>Шоу-румы</h4>
+          </li>
+          <li>
+            <h4>Дилерам</h4>
+          </li>
+          <li>
+            <h4>Конфигуратор</h4>
+          </li>
+        </ul>
+        <div class="footer_card">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <p class="number">+38 (099)-638-45-37</p>
+          <button class="buttons" id="btn2">Button</button>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER START  -->
+    <script src="./main.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var swiper1 = new Swiper(".mySwiper", {
+          slidesPerView: 4,
+          centeredSlides: true,
+          spaceBetween: 30,
+          grabCursor: true,
+          loop: true,
+          autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+          },
+          speed: 2000,
+          rtl: true, // This enables right-to-left scrolling
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+
+        var swiper2 = new Swiper(".mySwiper2", {
+          slidesPerView: 4,
+          centeredSlides: true,
+          spaceBetween: 30,
+          grabCursor: true,
+          loop: true,
+          autoplay: {
+            disableOnInteraction: true,
+            reverseDirection: true,
+            delay: 0,
+            disableOnInteraction: false,
+          },
+          speed: 2000,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      });
+    </script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
